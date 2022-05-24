@@ -1,0 +1,49 @@
+############################################
+# Syntax Coloring Map For SimpleSNMP library
+############################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SimpleSNMP      KEYWORD1
+snmpPacketsSent KEYWORD1
+snmpPacketsRecv KEYWORD1
+workingpdu      KEYWORD1
+pdudata         KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+snmp	       KEYWORD2
+action         KEYWORD2
+setROcommunity KEYWORD2
+setRWcommunity KEYWORD2
+insertNode     KEYWORD2
+addRWaction    KEYWORD2
+sendResponse   KEYWORD2
+getUserData    KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+SNMP_DATATYPE_NOTSET      LITERAL1
+SNMP_DATATYPE_BOOLEAN     LITERAL1
+SNMP_DATATYPE_INTEGER     LITERAL1
+SNMP_DATATYPE_BITSTRING   LITERAL1
+SNMP_DATATYPE_OCTETSTRING LITERAL1
+SNMP_DATATYPE_NULL        LITERAL1
+SNMP_DATATYPE_OID         LITERAL1
+SNMP_DATATYPE_UTCTIME     LITERAL1
+SNMP_DATATYPE_VARBIND     LITERAL1
+SNMP_DATATYPE_IPADDRESS   LITERAL1
+SNMP_DATATYPE_COUNTER32   LITERAL1
+SNMP_DATATYPE_UNSIGNED    LITERAL1
+SNMP_DATATYPE_TIMETICKS   LITERAL1
+SNMP_DATATYPE_INT64       LITERAL1
+SNMP_DATATYPE_FLOAT       LITERAL1
+SNMP_DATATYPE_DOUBLE      LITERAL1
+SNMP_DATATYPE_SIGNED64    LITERAL1
+SNMP_DATATYPE_UNSIGNED64  LITERAL1
+
