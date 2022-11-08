@@ -14,6 +14,7 @@
  * All functions can access SimpleSNMP.workingpdu struct as required which contains pointers to the main elements of the received snmp frame
  *
  * ToDo: Add suport oid 1.3.6.1.2.1.2.2.1.1 uptime 64 bit
+ *       Add support for stack depth oid 1.3.6.1.4.1.55577.0.12.0
  **/
 
 void getSystemDescription(void); // 1.3.6.1.2.1.1.1.0
